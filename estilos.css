@@ -1,29 +1,3 @@
-/* Navbar Styles */
-.navbar {
-    background-color: #620505 !important;
-    overflow: hidden !important;
-    font-family: Arial, sans-serif !important;
-}
-
-.navbar a {
-    float: left !important;
-    display: block !important;
-    color: #e47b7b !important;
-    text-align: center !important;
-    padding: 14px 16px !important;
-    text-decoration: none !important;
-}
-
-.navbar a:hover {
-    background-color: #ddd !important;
-    color: black !important;
-}
-
-.navbar a.active {
-    background-color: #4CAF50 !important;
-    color: white !important;
-}
-
 /* Footer Styles */
 footer {
     background-color: #620505 !important;
