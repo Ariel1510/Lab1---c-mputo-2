@@ -1,5 +1,6 @@
 <?php include("conexion.php");
 
+
     $id = $_GET['id'];
     $final=$conexion ->query("SELECT * FROM empleados WHERE id = $id");
     $empleado = $final->fetch_assoc();
