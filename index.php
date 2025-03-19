@@ -1,16 +1,22 @@
 
 <?php include("archivo.html"); ?>
-<?php include("conexion.php"); ?> 
+
+
+
 <!DOCTYPE html>
  <html lang="en">
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilosin.css">
  </head>
  <body>
-   <h1> Lista de empleados <h1>
-   <a href="registrar.php"><button>Registrar Nuevo</button></a>
+   <div class="contenedor2">
+ 
+      <h1 class="texth1"> Lista de empleados </h1> 
+      <?php include("conexion.php"); ?> 
+
    <?php
       $resultado = $conexion->query("SELECT * FROM empleados");
       echo '    <table>
@@ -44,6 +50,8 @@
         
         ?>
 
-      
+      <a href="registrar.php"><button>Registrar Nuevo</button></a>
+
+   </div>
  </body>
  </html>

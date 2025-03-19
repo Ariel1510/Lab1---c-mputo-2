@@ -6,14 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilosin.css">
 </head>
 <body>
-    <form action="" method="post">
-        <label for="">Nombre</label>
+    <form class="form" action="" method="post">
+        <label for="">Nombre: </label>
         <input type="text" name="nombre" id="">
-        <label for="">Carnet</label>
+        <label for="">Codigo: </label>
         <input type="text" name="code" id="">
-        <label for="">Fecha de nacimiento</label>
+        <label for="">Fecha de nacimiento: </label>
         <input type="date" name="fecha" id="">
         <button type="submit">Ingresar nuevo registro</button>
     </form>

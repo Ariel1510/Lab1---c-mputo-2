@@ -11,10 +11,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
 <body>
 <!--     [] es el nombre en la tabla -->
-    <form action="" method="post">
+    <form class="form" action="" method="post">
         <label for="">Nombre</label>
         <input type="text" name="nombre" id=""
         value="<?php echo $empleado['name'] ?>">
