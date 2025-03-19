@@ -13,3 +13,49 @@ footer p {
     margin: 0 !important;
     font-family: Arial, sans-serif !important;
 }
+
+/* Navbar Styles*/
+
+/* Estilos generales para el navbar */
+.navbar {
+    background-color: #343a40; /* Fondo oscuro */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+/* Estilo para el logo */
+.navbar-brand img {
+    width: 40px; /* Tamaño del logo */
+    border-radius: 50%; /* Hace el logo redondeado */
+}
+
+/* Estilo para el título */
+.navbar h1 {
+    color: white; /* Color del texto */
+    margin: 0 15px; /* Margen alrededor del título */
+    font-size: 1.5rem; /* Tamaño de la fuente */
+}
+
+/* Estilo para los enlaces del navbar */
+.navbar-nav .nav-link {
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño de la fuente */
+}
+
+/* Estilo para los enlaces cuando se pasa el mouse */
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Cambia el color al pasar el mouse */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo ligeramente más claro */
+}
+
+/* Estilo para el contenedor del navbar */
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilo para el menú colapsable */
+.collapse.navbar-collapse {
+    justify-content: flex-end;
+}
