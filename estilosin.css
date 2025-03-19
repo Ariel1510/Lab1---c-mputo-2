@@ -52,27 +52,28 @@ padding: 20px;
 
 }
 
-.contenedor2 td{
-    
-    background-color: rgb(134, 164, 255);
-    border-color: black;
-    border-width: 3px;
-    padding: 10px;
-}
-
-.contenedor2 th{
-    background-color: rgb(255, 107, 107);
-    border-color: black;
-    border-width: 3px;
-    padding: 10px;
-}
-
-.contenedor2 table{
-    border-color: black;
-    border-width: 3px;
+.contenedor2 table {
     width: 80%;
     margin: 0 auto;
-}   
+    border-collapse: collapse; 
+    border: 3px solid black; 
+}
+
+
+.contenedor2 td {
+    background-color: rgb(134, 164, 255);
+    border: 3px solid black; 
+    padding: 10px;
+    text-align: center; 
+}
+
+
+.contenedor2 th {
+    background-color: rgb(255, 107, 107);
+    border: 3px solid black; 
+    padding: 10px;
+    text-align: center; 
+}
 
 body{
     background-color: #b9ffe9;

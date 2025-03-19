@@ -1,5 +1,5 @@
-<?php include("conexion.php"); ?>
 
+<?php include("archivo.html"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="estilosin.css">
 </head>
 <body>
+<?php include("conexion.php"); ?>
     <form class="form" action="" method="post">
         <label for="">Nombre: </label>
         <input type="text" name="nombre" id="">

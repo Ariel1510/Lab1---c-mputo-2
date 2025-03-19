@@ -1,10 +1,5 @@
-<?php include("conexion.php");
 
-
-    $id = $_GET['id'];
-    $final=$conexion ->query("SELECT * FROM empleados WHERE id = $id");
-    $empleado = $final->fetch_assoc();
-?>
+<?php include("archivo.html"); ?>
     <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +9,13 @@
     
 </head>
 <body>
+<?php include("conexion.php");
+
+
+$id = $_GET['id'];
+$final=$conexion ->query("SELECT * FROM empleados WHERE id = $id");
+$empleado = $final->fetch_assoc();
+?>
 <!--     [] es el nombre en la tabla -->
     <form class="form" action="" method="post">
         <label for="">Nombre</label>

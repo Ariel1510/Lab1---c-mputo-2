@@ -1,4 +1,9 @@
 /* Footer Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Asegura que el body ocupe toda la altura de la ventana */
+}
 footer {
     background-color: #620505 !important;
     color: white !important;
@@ -20,6 +25,7 @@ footer p {
 .navbar {
     background-color: #343a40; /* Fondo oscuro */
     padding: 10px 0; /* Espaciado interno */
+    
 }
 
 /* Estilo para el logo */
@@ -59,3 +65,4 @@ footer p {
 .collapse.navbar-collapse {
     justify-content: flex-end;
 }
+
